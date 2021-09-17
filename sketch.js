@@ -57,7 +57,7 @@ function setup() {
   blocks9 = new Block(700,95,30,40);
 
   //soporte poligonal con la resortera
-  polygon = Bodies.circle(10,30000,20);
+  polygon = Bodies.circle(200,200,20);
   World.add(world,polygon);
   
   slingShot = new Slingshot(this.polygon,{x:200,y:200});
